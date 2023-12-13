@@ -15,6 +15,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "demo-rust-behaviours"
+version = "0.1.0"
+dependencies = [
+ "mockall",
+]
+
+[[package]]
 name = "downcast"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -48,16 +55,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
-name = "misc-behaviours"
-version = "0.1.0"
-dependencies = [
- "mockall",
-]
-
-[[package]]
 name = "mockall"
-version = "0.12.0"
-source = "git+https://github.com/asomers/mockall.git?branch=master#7e4af040db6ed8282005cee80da89471562c6f3f"
+version = "0.11.2"
+source = "git+https://github.com/asomers/mockall.git?branch=master#2482f72585bffe092cbd1f0794eb26bcefacaad6"
 dependencies = [
  "cfg-if",
  "downcast",
@@ -70,8 +70,8 @@ dependencies = [
 
 [[package]]
 name = "mockall_derive"
-version = "0.12.0"
-source = "git+https://github.com/asomers/mockall.git?branch=master#7e4af040db6ed8282005cee80da89471562c6f3f"
+version = "0.11.2"
+source = "git+https://github.com/asomers/mockall.git?branch=master#2482f72585bffe092cbd1f0794eb26bcefacaad6"
 dependencies = [
  "cfg-if",
  "proc-macro2",
@@ -108,9 +108,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.70"
+version = "1.0.67"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39278fbbf5fb4f646ce651690877f89d1c5811a3d4acb27700c1cb3cdb78fd3b"
+checksum = "3d433d9f1a3e8c1263d9456598b16fec66f4acc9a74dacffd35c7bb09b3a1328"
 dependencies = [
  "unicode-ident",
 ]
@@ -125,14 +125,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "recursion-error"
-version = "0.1.0"
-
-[[package]]
 name = "syn"
-version = "2.0.41"
+version = "2.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44c8b28c477cc3bf0e7966561e3460130e1255f7a1cf71931075f1c5e7a7e269"
+checksum = "7303ef2c05cd654186cb250d29049a24840ca25d2747c25c0381c8d9e2f582e8"
 dependencies = [
  "proc-macro2",
  "quote",

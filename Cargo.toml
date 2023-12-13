@@ -1,9 +1,2 @@
-[package]
-name = "demo-rust-behaviours"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-mockall = { git = "https://github.com/asomers/mockall.git", branch = "master" }
+[workspace]
+members = ["misc-behaviours", "recursion-error"]
